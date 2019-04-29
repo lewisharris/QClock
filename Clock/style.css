@@ -61,7 +61,7 @@ position: relative;
 
 }
 
-@media (max-width:728px) {
+@media (max-device-width:568px) {
 	html,body{
 		margin:auto 0;
 		padding:0px;
@@ -69,8 +69,9 @@ position: relative;
 	.main{
 		position: absolute;
 		left:0px;
-		top:100px;
+		top:400px;
 		width:100%;
+		height:500px;
 		margin: 0;
 		text-align: center;
 		padding:0px;
@@ -79,5 +80,30 @@ position: relative;
 	.clocktext{
 		left:0px;
 	}
+	.clock{
+	padding-top:200px;
+	width:100%;
+	height: 100%;
+	text-align: center;
+	font-size:86px;
+	font-family: 'Orbitron', sans-serif;
+	margin:auto 0;
+}
+	#date{
+		width:100%;
+		height:80px;
+		background:#e66357;
+		padding-top: 20px;
+		padding-bottom:10px;
+		margin: auto 0;
+		position: absolute;
+		bottom:0px;
+		left:0px;
+		text-align: center;
+		color:#fff;
+		font-size:48px;
+		transition: height 1s;
+		cursor: pointer;
+}
 
 }
